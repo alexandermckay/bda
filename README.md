@@ -49,6 +49,7 @@ The following functions are internal to the plugin and use the `s:` convention t
 
 1. Open multiple files in Vim.
 2. Run `:bda` to reset the buffer list while keeping your window layout intact.
+3. (Optional) Use `<C-o>` to reopen accidentally closed files
 
 ## License
 
