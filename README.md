@@ -2,6 +2,10 @@
 
 This Vim plugin provides a simple command to reset the buffer list while preserving your window layout. It saves and then deletes all buffers except for a single no-name buffer. This ensures that your workspace remains unchanged.
 
+## Preview
+
+![Screencast](screencast.gif)
+
 ## Features
 
 - **Reset the buffer list**: Deletes all buffers except the current no-name buffer.
