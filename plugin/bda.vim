@@ -29,7 +29,7 @@ endfunction
 
 function! BDA()
   call s:CreateNoNameBuffer()
-  let no_name_buffer_number = GetNoNameBufferNumber()
+  let no_name_buffer_number = s:GetNoNameBufferNumber()
   call s:SwitchWindowsToNoNameBuffer(no_name_buffer_number)
   call s:DeleteNamedBuffers(no_name_buffer_number)
 endfunction
